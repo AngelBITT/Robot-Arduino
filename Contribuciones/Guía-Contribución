@@ -1,1 +1,49 @@
+# Guía de Contribución
 
+Gracias por tu interés en contribuir al proyecto del Robot-Arduino
+
+## 1. Cómo clonar el repositorio?
+git clone https://github.com/AngelBITT/Robot-Arduino.git
+
+## 2. Requisitos
+- Arduino IDE
+- Librerías necesarias:
+    * AFMotor
+
+## 3. Cómo ejecutar el proyecto
+1. Abre el archivo principal PIA_CI.ino
+2. Selecciona la placa Arduino UNO.
+3. Carga el programa al robot.
+
+## 4. Cómo contribuir
+- Crea una rama nueva para tu cambio:
+  git checkout -b "nombre-de-tu-mejora"
+
+- Haz tus cambios y súbelos:
+  Ejemplo: git commit -m "Agrega nueva función claxón"
+
+- Sube tu rama:
+  git push origin "nombre-de-tu-mejora"
+
+- Abre un Pull Request en GitHub.
+
+## 5. Cómo reportar errores
+Abre un issue siguiendo el formato de /Contribuciones/Erorres
+
+Si encontraste un error:
+
+## Descripción del problema
+(Explica qué no funciona)
+
+## Pasos para reproducir
+1.
+2.
+3.
+...
+
+## Resultado esperado
+"Lo que debería de ocurrir"
+
+## Evidencia
+- Capturas de pantalla
+- Mensajes de error
